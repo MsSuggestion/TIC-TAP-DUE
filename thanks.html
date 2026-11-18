@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanks · Tic Tap Due</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="https://numberstate.netlify.app/img/ttd/Tic.webp">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700;800;900&display=swap">
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(110% 80% at 50% 0,#6A24A8,#3A1260);color:#24123A;font:18px/1.65 "Nunito",system-ui,sans-serif;padding:32px 20px}
+.box{max-width:640px;margin:0 auto;background:#fff;border-radius:22px;padding:32px;box-shadow:0 10px 30px rgba(10,0,25,.35)}
+h1{font:800 clamp(1.9rem,6vw,2.6rem)/1.1 "Baloo 2",sans-serif;margin:0 0 14px;color:#4D1A9E}
+h2{font:800 1.2rem "Baloo 2",sans-serif;margin:24px 0 4px;color:#24123A}
+p,li{color:#5C4A75} a{color:inherit}
+.btn{display:inline-flex;align-items:center;min-height:50px;padding:0 24px;border-radius:16px;background:#6D2FD1;color:#fff;text-decoration:none;font-weight:800;margin:8px 8px 0 0}
+.btn.gold{background:#F6C33B;color:#24123A}
+.btn.alt{background:transparent;color:#24123A;border:2px solid #C9B4EA}
+a:focus-visible{outline:3px solid #F6C33B;outline-offset:3px}
+.mark{width:64px;height:64px;border-radius:16px;margin-bottom:12px;background:#5A1F93}
+</style>
+</head>
+<body><main class="box"><img class="mark" src="https://numberstate.netlify.app/img/ttd/Tic.webp" alt="">
+<h1 id="t-h">Thanks, we got it</h1>
+<p id="t-p">We'll be in touch by email.</p>
+<p>Follow Tic Tap Due for news:</p>
+<a class="btn" href="https://www.facebook.com/profile.php?id=61596396360694" target="_blank" rel="noopener">Tic Tap Due on Facebook</a>
+<p style="margin-top:22px"><a class="btn alt" href="/">Back to Tic Tap Due</a></p>
+<script>
+(function(){var f=(new URLSearchParams(location.search)).get('f')||'ttd';
+var m={ttd:["Tic Tap Due application received","Thanks for applying. We pick 30 testers after applications close Fri, Nov 20 at 11:59 PM Central. If you're picked, we'll email you. Applying doesn't guarantee a spot."],
+ttdlaunch:["You're on the Tic Tap Due list","We'll email you when Tic Tap Due opens. Joining the list is free and isn't a purchase."]}[f]||["Thanks, we got it","We'll be in touch by email."];
+document.getElementById('t-h').textContent=m[0];document.getElementById('t-p').textContent=m[1];document.title=m[0]+' · Tic Tap Due';})();
+</script></main></body></html>
